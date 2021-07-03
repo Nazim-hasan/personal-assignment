@@ -1,0 +1,87 @@
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 62, 62);
+}  
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(160, 62, 62);
+}
+li{
+    float: left;
+    text-align: center;
+
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    width: 60px;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: tomato;
+}
+
+#heading{
+    text-align: center;
+    color: tomato;
+    font-weight: 300;
+}
+body, html{
+    height: 100%;
+    font-family: helvetica, arial, sans-serif;
+}
+.continer {
+    background-image: url(../images/img_girl.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fullcaption{
+    left: 0;
+    top: 50%;
+}
+.caption{
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.comments{
+    display: grid;
+    background-color: rgb(245, 245, 245);
+    grid-template-columns:50% 50%;
+}
+.box{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.img{
+    padding: 25px;
+}
+.img img{
+    border-radius: 13%;
+}
+.person-comment{
+    padding: 25px;
+}
+footer{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+footer a{
+    text-decoration: none;
+}
